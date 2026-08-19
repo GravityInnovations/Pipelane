@@ -17,27 +17,27 @@ This checklist is append-only for unfinished work: complete items are checked, d
 
 ## Phase 1 — Project foundation
 
-- [ ] Initialise a current stable Next.js App Router project with TypeScript and `src/`
-- [ ] Configure package manager version, Node version, scripts, and lockfile
-- [ ] Configure Tailwind CSS and compact application design tokens
-- [ ] Add accessible lightweight component primitives and Lucide icons
-- [ ] Add ESLint, formatting, strict TypeScript, and import boundaries
-- [ ] Add `.gitignore`, `.env.example`, and runtime environment validation
-- [ ] Confirm the dependency tree contains no Wrangler package and add no Wrangler/OpenNext configuration
-- [ ] Add browser and server Supabase SSR client factories
-- [ ] Add session-refresh proxy using the current supported Supabase pattern
-- [ ] Implement verified identity helper and protected route group
-- [ ] Create initial enums, `profiles` migration, profile trigger, and indexes
-- [ ] Enable RLS and add profile read/update/bootstrap policies
-- [ ] Implement email/password login, logout, unauthorised, and inactive-user states
-- [ ] Implement server-side role lookup and reusable permission guards
-- [ ] Build responsive app shell, sidebar, header, mobile drawer, and user menu
-- [ ] Apply role-aware navigation without treating UI visibility as authorisation
-- [ ] Add PageHeader, StatCard, StatusBadge, EmptyState, and ConfirmDialog primitives
-- [ ] Add global loading/error/not-found boundaries
-- [ ] Unit-test permission and environment helpers
+- [x] Initialise a current stable Next.js App Router project with TypeScript and `src/`
+- [x] Configure package manager version, Node version, scripts, and lockfile
+- [x] Configure Tailwind CSS and compact application design tokens
+- [x] Add accessible lightweight component primitives and Lucide icons
+- [x] Add ESLint, formatting, strict TypeScript, and import boundaries
+- [x] Add `.gitignore`, `.env.example`, and runtime environment validation
+- [x] Confirm the dependency tree contains no Wrangler package and add no Wrangler/OpenNext configuration
+- [x] Add browser and server Supabase SSR client factories
+- [x] Add session-refresh proxy using the current supported Supabase pattern
+- [x] Implement verified identity helper and protected route group
+- [x] Create initial enums, `profiles` migration, profile trigger, and indexes
+- [x] Enable RLS and add profile read/update/bootstrap policies
+- [x] Implement email/password login, logout, unauthorised, and inactive-user states
+- [x] Implement server-side role lookup and reusable permission guards
+- [x] Build responsive app shell, sidebar, header, mobile drawer, and user menu
+- [x] Apply role-aware navigation without treating UI visibility as authorisation
+- [x] Add PageHeader, StatCard, StatusBadge, EmptyState, and ConfirmDialog primitives
+- [x] Add global loading/error/not-found boundaries
+- [x] Unit-test permission and environment helpers
 - [ ] Integration-test protected route and inactive profile behaviour
-- [ ] Run lint, typecheck, unit tests, and the standard Next.js production build
+- [x] Run lint, typecheck, unit tests, and the standard Next.js production build
 - [ ] Update documentation and check Phase 1 acceptance criteria
 
 ## Phase 2 — CRM foundation

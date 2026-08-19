@@ -6,7 +6,7 @@ Gravity Outreach OS is an open-source, self-hostable internal work application f
 
 ## Project status
 
-**Planning phase.** The architecture and delivery plan are defined; application implementation has not started.
+**Phase 1 foundation in progress.** The Next.js application shell, Supabase SSR authentication boundary, profiles/RBAC migration, core UI primitives, and initial unit tests are implemented on a feature branch. Live Supabase integration remains unverified until a non-production project is configured.
 
 Cloudflare Workers is the intended hosting target, but production deployment is currently gated: the project has an absolute no-Wrangler rule, while Cloudflare's documented full-stack Next.js/OpenNext deployment path currently depends on that toolchain. See [DEPLOYMENT.md](DEPLOYMENT.md) for the exact constraint. No deployment is claimed.
 
@@ -72,12 +72,22 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) and [DATA_MODEL.md](DATA_MODEL.md) for bo
 
 ## Local setup
 
-Application setup will be added in Phase 1. The expected shape is:
+Install dependencies, copy the environment template, and start the local application:
 
 ```sh
 npm install
 cp .env.example .env.local
 npm run dev
+```
+
+Quality gates:
+
+```sh
+npm run lint
+npm run format:check
+npm run typecheck
+npm test
+npm run build
 ```
 
 Required browser-safe configuration will include:

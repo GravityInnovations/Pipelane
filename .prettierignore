@@ -1,0 +1,10 @@
+.next
+node_modules
+.env*
+mater.md
+ARCHITECTURE.md
+DATA_MODEL.md
+DEPLOYMENT.md
+PLAN.md
+supabase/**/*.sql
+coverage
